@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAB1982E2A2298BA00FBDF05 /* bright_whitesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB1982D2A2298BA00FBDF05 /* bright_whitesApp.swift */; };
+		DAB198302A2298BA00FBDF05 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB1982F2A2298BA00FBDF05 /* ContentView.swift */; };
+		DAB198322A2298BB00FBDF05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB198312A2298BB00FBDF05 /* Assets.xcassets */; };
+		DAB198352A2298BB00FBDF05 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB198342A2298BB00FBDF05 /* Preview Assets.xcassets */; };
+		DAB1983F2A2298BB00FBDF05 /* bright_whitesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB1983E2A2298BB00FBDF05 /* bright_whitesTests.swift */; };
+		DAB198492A2298BB00FBDF05 /* bright_whitesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB198482A2298BB00FBDF05 /* bright_whitesUITests.swift */; };
+		DAB1984B2A2298BB00FBDF05 /* bright_whitesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB1984A2A2298BB00FBDF05 /* bright_whitesUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAB1983B2A2298BB00FBDF05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAB198222A2298BA00FBDF05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAB198292A2298BA00FBDF05;
+			remoteInfo = "bright-whites";
+		};
+		DAB198452A2298BB00FBDF05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAB198222A2298BA00FBDF05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAB198292A2298BA00FBDF05;
+			remoteInfo = "bright-whites";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DAB1982A2A2298BA00FBDF05 /* bright-whites.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bright-whites.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB1982D2A2298BA00FBDF05 /* bright_whitesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bright_whitesApp.swift; sourceTree = "<group>"; };
+		DAB1982F2A2298BA00FBDF05 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DAB198312A2298BB00FBDF05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAB198342A2298BB00FBDF05 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DAB1983A2A2298BB00FBDF05 /* bright-whitesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bright-whitesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB1983E2A2298BB00FBDF05 /* bright_whitesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bright_whitesTests.swift; sourceTree = "<group>"; };
+		DAB198442A2298BB00FBDF05 /* bright-whitesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bright-whitesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB198482A2298BB00FBDF05 /* bright_whitesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bright_whitesUITests.swift; sourceTree = "<group>"; };
+		DAB1984A2A2298BB00FBDF05 /* bright_whitesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bright_whitesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAB198272A2298BA00FBDF05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB198372A2298BB00FBDF05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB198412A2298BB00FBDF05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAB198212A2298BA00FBDF05 = {
+			isa = PBXGroup;
+			children = (
+				DAB1982C2A2298BA00FBDF05 /* bright-whites */,
+				DAB1983D2A2298BB00FBDF05 /* bright-whitesTests */,
+				DAB198472A2298BB00FBDF05 /* bright-whitesUITests */,
+				DAB1982B2A2298BA00FBDF05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAB1982B2A2298BA00FBDF05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAB1982A2A2298BA00FBDF05 /* bright-whites.app */,
+				DAB1983A2A2298BB00FBDF05 /* bright-whitesTests.xctest */,
+				DAB198442A2298BB00FBDF05 /* bright-whitesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAB1982C2A2298BA00FBDF05 /* bright-whites */ = {
+			isa = PBXGroup;
+			children = (
+				DAB1982D2A2298BA00FBDF05 /* bright_whitesApp.swift */,
+				DAB1982F2A2298BA00FBDF05 /* ContentView.swift */,
+				DAB198312A2298BB00FBDF05 /* Assets.xcassets */,
+				DAB198332A2298BB00FBDF05 /* Preview Content */,
+			);
+			path = "bright-whites";
+			sourceTree = "<group>";
+		};
+		DAB198332A2298BB00FBDF05 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DAB198342A2298BB00FBDF05 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DAB1983D2A2298BB00FBDF05 /* bright-whitesTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAB1983E2A2298BB00FBDF05 /* bright_whitesTests.swift */,
+			);
+			path = "bright-whitesTests";
+			sourceTree = "<group>";
+		};
+		DAB198472A2298BB00FBDF05 /* bright-whitesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DAB198482A2298BB00FBDF05 /* bright_whitesUITests.swift */,
+				DAB1984A2A2298BB00FBDF05 /* bright_whitesUITestsLaunchTests.swift */,
+			);
+			path = "bright-whitesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAB198292A2298BA00FBDF05 /* bright-whites */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB1984E2A2298BB00FBDF05 /* Build configuration list for PBXNativeTarget "bright-whites" */;
+			buildPhases = (
+				DAB198262A2298BA00FBDF05 /* Sources */,
+				DAB198272A2298BA00FBDF05 /* Frameworks */,
+				DAB198282A2298BA00FBDF05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "bright-whites";
+			productName = "bright-whites";
+			productReference = DAB1982A2A2298BA00FBDF05 /* bright-whites.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAB198392A2298BB00FBDF05 /* bright-whitesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB198512A2298BB00FBDF05 /* Build configuration list for PBXNativeTarget "bright-whitesTests" */;
+			buildPhases = (
+				DAB198362A2298BB00FBDF05 /* Sources */,
+				DAB198372A2298BB00FBDF05 /* Frameworks */,
+				DAB198382A2298BB00FBDF05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAB1983C2A2298BB00FBDF05 /* PBXTargetDependency */,
+			);
+			name = "bright-whitesTests";
+			productName = "bright-whitesTests";
+			productReference = DAB1983A2A2298BB00FBDF05 /* bright-whitesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAB198432A2298BB00FBDF05 /* bright-whitesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB198542A2298BB00FBDF05 /* Build configuration list for PBXNativeTarget "bright-whitesUITests" */;
+			buildPhases = (
+				DAB198402A2298BB00FBDF05 /* Sources */,
+				DAB198412A2298BB00FBDF05 /* Frameworks */,
+				DAB198422A2298BB00FBDF05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAB198462A2298BB00FBDF05 /* PBXTargetDependency */,
+			);
+			name = "bright-whitesUITests";
+			productName = "bright-whitesUITests";
+			productReference = DAB198442A2298BB00FBDF05 /* bright-whitesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAB198222A2298BA00FBDF05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					DAB198292A2298BA00FBDF05 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					DAB198392A2298BB00FBDF05 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = DAB198292A2298BA00FBDF05;
+					};
+					DAB198432A2298BB00FBDF05 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = DAB198292A2298BA00FBDF05;
+					};
+				};
+			};
+			buildConfigurationList = DAB198252A2298BA00FBDF05 /* Build configuration list for PBXProject "bright-whites" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAB198212A2298BA00FBDF05;
+			productRefGroup = DAB1982B2A2298BA00FBDF05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAB198292A2298BA00FBDF05 /* bright-whites */,
+				DAB198392A2298BB00FBDF05 /* bright-whitesTests */,
+				DAB198432A2298BB00FBDF05 /* bright-whitesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAB198282A2298BA00FBDF05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB198352A2298BB00FBDF05 /* Preview Assets.xcassets in Resources */,
+				DAB198322A2298BB00FBDF05 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB198382A2298BB00FBDF05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB198422A2298BB00FBDF05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAB198262A2298BA00FBDF05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB198302A2298BA00FBDF05 /* ContentView.swift in Sources */,
+				DAB1982E2A2298BA00FBDF05 /* bright_whitesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB198362A2298BB00FBDF05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB1983F2A2298BB00FBDF05 /* bright_whitesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB198402A2298BB00FBDF05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB1984B2A2298BB00FBDF05 /* bright_whitesUITestsLaunchTests.swift in Sources */,
+				DAB198492A2298BB00FBDF05 /* bright_whitesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAB1983C2A2298BB00FBDF05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAB198292A2298BA00FBDF05 /* bright-whites */;
+			targetProxy = DAB1983B2A2298BB00FBDF05 /* PBXContainerItemProxy */;
+		};
+		DAB198462A2298BB00FBDF05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAB198292A2298BA00FBDF05 /* bright-whites */;
+			targetProxy = DAB198452A2298BB00FBDF05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DAB1984C2A2298BB00FBDF05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DAB1984D2A2298BB00FBDF05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAB1984F2A2298BB00FBDF05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"bright-whites/Preview Content\"";
+				DEVELOPMENT_TEAM = 9UT6F4B4LM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaimetavares.bright-whites";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAB198502A2298BB00FBDF05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"bright-whites/Preview Content\"";
+				DEVELOPMENT_TEAM = 9UT6F4B4LM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaimetavares.bright-whites";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DAB198522A2298BB00FBDF05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9UT6F4B4LM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaimetavares.bright-whitesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bright-whites.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/bright-whites";
+			};
+			name = Debug;
+		};
+		DAB198532A2298BB00FBDF05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9UT6F4B4LM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaimetavares.bright-whitesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bright-whites.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/bright-whites";
+			};
+			name = Release;
+		};
+		DAB198552A2298BB00FBDF05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9UT6F4B4LM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaimetavares.bright-whitesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "bright-whites";
+			};
+			name = Debug;
+		};
+		DAB198562A2298BB00FBDF05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9UT6F4B4LM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaimetavares.bright-whitesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "bright-whites";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAB198252A2298BA00FBDF05 /* Build configuration list for PBXProject "bright-whites" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB1984C2A2298BB00FBDF05 /* Debug */,
+				DAB1984D2A2298BB00FBDF05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB1984E2A2298BB00FBDF05 /* Build configuration list for PBXNativeTarget "bright-whites" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB1984F2A2298BB00FBDF05 /* Debug */,
+				DAB198502A2298BB00FBDF05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB198512A2298BB00FBDF05 /* Build configuration list for PBXNativeTarget "bright-whitesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB198522A2298BB00FBDF05 /* Debug */,
+				DAB198532A2298BB00FBDF05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB198542A2298BB00FBDF05 /* Build configuration list for PBXNativeTarget "bright-whitesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB198552A2298BB00FBDF05 /* Debug */,
+				DAB198562A2298BB00FBDF05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAB198222A2298BA00FBDF05 /* Project object */;
+}
