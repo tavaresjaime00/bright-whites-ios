@@ -41,7 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DAB1982A2A2298BA00FBDF05 /* bright-whites.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bright-whites.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB1982A2A2298BA00FBDF05 /* Bright Whites.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bright Whites.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAB1982D2A2298BA00FBDF05 /* bright_whitesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bright_whitesApp.swift; sourceTree = "<group>"; };
 		DAB198342A2298BB00FBDF05 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DAB1983A2A2298BB00FBDF05 /* bright-whitesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bright-whitesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,7 +98,7 @@
 		DAB1982B2A2298BA00FBDF05 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DAB1982A2A2298BA00FBDF05 /* bright-whites.app */,
+				DAB1982A2A2298BA00FBDF05 /* Bright Whites.app */,
 				DAB1983A2A2298BB00FBDF05 /* bright-whitesTests.xctest */,
 				DAB198442A2298BB00FBDF05 /* bright-whitesUITests.xctest */,
 			);
@@ -158,9 +158,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DAB198292A2298BA00FBDF05 /* bright-whites */ = {
+		DAB198292A2298BA00FBDF05 /* Bright Whites */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DAB1984E2A2298BB00FBDF05 /* Build configuration list for PBXNativeTarget "bright-whites" */;
+			buildConfigurationList = DAB1984E2A2298BB00FBDF05 /* Build configuration list for PBXNativeTarget "Bright Whites" */;
 			buildPhases = (
 				DAB198262A2298BA00FBDF05 /* Sources */,
 				DAB198272A2298BA00FBDF05 /* Frameworks */,
@@ -170,12 +170,12 @@
 			);
 			dependencies = (
 			);
-			name = "bright-whites";
+			name = "Bright Whites";
 			packageProductDependencies = (
 				DAB198582A22990000FBDF05 /* Lottie */,
 			);
 			productName = "bright-whites";
-			productReference = DAB1982A2A2298BA00FBDF05 /* bright-whites.app */;
+			productReference = DAB1982A2A2298BA00FBDF05 /* Bright Whites.app */;
 			productType = "com.apple.product-type.application";
 		};
 		DAB198392A2298BB00FBDF05 /* bright-whitesTests */ = {
@@ -254,7 +254,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DAB198292A2298BA00FBDF05 /* bright-whites */,
+				DAB198292A2298BA00FBDF05 /* Bright Whites */,
 				DAB198392A2298BB00FBDF05 /* bright-whitesTests */,
 				DAB198432A2298BB00FBDF05 /* bright-whitesUITests */,
 			);
@@ -325,12 +325,12 @@
 /* Begin PBXTargetDependency section */
 		DAB1983C2A2298BB00FBDF05 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DAB198292A2298BA00FBDF05 /* bright-whites */;
+			target = DAB198292A2298BA00FBDF05 /* Bright Whites */;
 			targetProxy = DAB1983B2A2298BB00FBDF05 /* PBXContainerItemProxy */;
 		};
 		DAB198462A2298BB00FBDF05 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DAB198292A2298BA00FBDF05 /* bright-whites */;
+			target = DAB198292A2298BA00FBDF05 /* Bright Whites */;
 			targetProxy = DAB198452A2298BB00FBDF05 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -386,6 +386,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Bright Whites";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -440,6 +441,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Bright Whites";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -458,7 +460,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 1.1;
 				DEVELOPMENT_ASSET_PATHS = "\"bright-whites/Preview Content\"";
 				DEVELOPMENT_TEAM = 9UT6F4B4LM;
 				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
@@ -476,7 +478,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jaimetavares.bright-whites";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -496,7 +498,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 1.1;
 				DEVELOPMENT_ASSET_PATHS = "\"bright-whites/Preview Content\"";
 				DEVELOPMENT_TEAM = 9UT6F4B4LM;
 				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
@@ -514,7 +516,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jaimetavares.bright-whites";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -614,7 +616,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DAB1984E2A2298BB00FBDF05 /* Build configuration list for PBXNativeTarget "bright-whites" */ = {
+		DAB1984E2A2298BB00FBDF05 /* Build configuration list for PBXNativeTarget "Bright Whites" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DAB1984F2A2298BB00FBDF05 /* Debug */,
