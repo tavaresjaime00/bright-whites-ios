@@ -11,7 +11,7 @@ import SwiftUI
 struct bright_whitesApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().background(.black)
         }
     }
 }
