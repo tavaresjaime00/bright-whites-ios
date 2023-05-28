@@ -15,12 +15,12 @@
 		DAB198592A22990000FBDF05 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = DAB198582A22990000FBDF05 /* Lottie */; };
 		DAB198632A22998900FBDF05 /* warning.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB1985D2A22998800FBDF05 /* warning.swift */; };
 		DAB198642A22998900FBDF05 /* count.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB1985E2A22998900FBDF05 /* count.swift */; };
-		DAB198652A22998900FBDF05 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB1985F2A22998900FBDF05 /* ContentView.swift */; };
 		DAB198662A22998900FBDF05 /* howTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB198602A22998900FBDF05 /* howTo.swift */; };
 		DAB198672A22998900FBDF05 /* lottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB198612A22998900FBDF05 /* lottieView.swift */; };
 		DAB198692A22999B00FBDF05 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB198682A22999B00FBDF05 /* Launch Screen.storyboard */; };
 		DAB1986C2A2299C000FBDF05 /* Confetti.json in Resources */ = {isa = PBXBuildFile; fileRef = DAB1986B2A2299C000FBDF05 /* Confetti.json */; };
 		DAB1986E2A229A2300FBDF05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB1986D2A229A2300FBDF05 /* Assets.xcassets */; };
+		DAB198712A231F8B00FBDF05 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB198702A231F8B00FBDF05 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,12 +51,12 @@
 		DAB1984A2A2298BB00FBDF05 /* bright_whitesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bright_whitesUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DAB1985D2A22998800FBDF05 /* warning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = warning.swift; sourceTree = "<group>"; };
 		DAB1985E2A22998900FBDF05 /* count.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = count.swift; sourceTree = "<group>"; };
-		DAB1985F2A22998900FBDF05 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "../../../Downloads/Brushem-main/Brushem/ContentView.swift"; sourceTree = "<group>"; };
 		DAB198602A22998900FBDF05 /* howTo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = howTo.swift; sourceTree = "<group>"; };
 		DAB198612A22998900FBDF05 /* lottieView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = lottieView.swift; sourceTree = "<group>"; };
 		DAB198682A22999B00FBDF05 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		DAB1986B2A2299C000FBDF05 /* Confetti.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Confetti.json; sourceTree = "<group>"; };
 		DAB1986D2A229A2300FBDF05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAB198702A231F8B00FBDF05 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,10 +108,10 @@
 		DAB1982C2A2298BA00FBDF05 /* bright-whites */ = {
 			isa = PBXGroup;
 			children = (
+				DAB198702A231F8B00FBDF05 /* ContentView.swift */,
 				DAB1986D2A229A2300FBDF05 /* Assets.xcassets */,
 				DAB1986A2A2299C000FBDF05 /* Lottie Files */,
 				DAB198682A22999B00FBDF05 /* Launch Screen.storyboard */,
-				DAB1985F2A22998900FBDF05 /* ContentView.swift */,
 				DAB1985E2A22998900FBDF05 /* count.swift */,
 				DAB198602A22998900FBDF05 /* howTo.swift */,
 				DAB198612A22998900FBDF05 /* lottieView.swift */,
@@ -296,7 +296,7 @@
 			files = (
 				DAB198662A22998900FBDF05 /* howTo.swift in Sources */,
 				DAB198642A22998900FBDF05 /* count.swift in Sources */,
-				DAB198652A22998900FBDF05 /* ContentView.swift in Sources */,
+				DAB198712A231F8B00FBDF05 /* ContentView.swift in Sources */,
 				DAB198632A22998900FBDF05 /* warning.swift in Sources */,
 				DAB1982E2A2298BA00FBDF05 /* bright_whitesApp.swift in Sources */,
 				DAB198672A22998900FBDF05 /* lottieView.swift in Sources */,
