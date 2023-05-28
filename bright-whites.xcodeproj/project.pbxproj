@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		DAB1982E2A2298BA00FBDF05 /* bright_whitesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB1982D2A2298BA00FBDF05 /* bright_whitesApp.swift */; };
-		DAB198302A2298BA00FBDF05 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB1982F2A2298BA00FBDF05 /* ContentView.swift */; };
-		DAB198322A2298BB00FBDF05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB198312A2298BB00FBDF05 /* Assets.xcassets */; };
 		DAB198352A2298BB00FBDF05 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB198342A2298BB00FBDF05 /* Preview Assets.xcassets */; };
 		DAB1983F2A2298BB00FBDF05 /* bright_whitesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB1983E2A2298BB00FBDF05 /* bright_whitesTests.swift */; };
 		DAB198492A2298BB00FBDF05 /* bright_whitesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB198482A2298BB00FBDF05 /* bright_whitesUITests.swift */; };
 		DAB1984B2A2298BB00FBDF05 /* bright_whitesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB1984A2A2298BB00FBDF05 /* bright_whitesUITestsLaunchTests.swift */; };
+		DAB198592A22990000FBDF05 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = DAB198582A22990000FBDF05 /* Lottie */; };
+		DAB198632A22998900FBDF05 /* warning.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB1985D2A22998800FBDF05 /* warning.swift */; };
+		DAB198642A22998900FBDF05 /* count.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB1985E2A22998900FBDF05 /* count.swift */; };
+		DAB198652A22998900FBDF05 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB1985F2A22998900FBDF05 /* ContentView.swift */; };
+		DAB198662A22998900FBDF05 /* howTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB198602A22998900FBDF05 /* howTo.swift */; };
+		DAB198672A22998900FBDF05 /* lottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB198612A22998900FBDF05 /* lottieView.swift */; };
+		DAB198692A22999B00FBDF05 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB198682A22999B00FBDF05 /* Launch Screen.storyboard */; };
+		DAB1986C2A2299C000FBDF05 /* Confetti.json in Resources */ = {isa = PBXBuildFile; fileRef = DAB1986B2A2299C000FBDF05 /* Confetti.json */; };
+		DAB1986E2A229A2300FBDF05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB1986D2A229A2300FBDF05 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +43,20 @@
 /* Begin PBXFileReference section */
 		DAB1982A2A2298BA00FBDF05 /* bright-whites.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bright-whites.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAB1982D2A2298BA00FBDF05 /* bright_whitesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bright_whitesApp.swift; sourceTree = "<group>"; };
-		DAB1982F2A2298BA00FBDF05 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		DAB198312A2298BB00FBDF05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAB198342A2298BB00FBDF05 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DAB1983A2A2298BB00FBDF05 /* bright-whitesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bright-whitesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAB1983E2A2298BB00FBDF05 /* bright_whitesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bright_whitesTests.swift; sourceTree = "<group>"; };
 		DAB198442A2298BB00FBDF05 /* bright-whitesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bright-whitesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAB198482A2298BB00FBDF05 /* bright_whitesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bright_whitesUITests.swift; sourceTree = "<group>"; };
 		DAB1984A2A2298BB00FBDF05 /* bright_whitesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bright_whitesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DAB1985D2A22998800FBDF05 /* warning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = warning.swift; sourceTree = "<group>"; };
+		DAB1985E2A22998900FBDF05 /* count.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = count.swift; sourceTree = "<group>"; };
+		DAB1985F2A22998900FBDF05 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "../../../Downloads/Brushem-main/Brushem/ContentView.swift"; sourceTree = "<group>"; };
+		DAB198602A22998900FBDF05 /* howTo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = howTo.swift; sourceTree = "<group>"; };
+		DAB198612A22998900FBDF05 /* lottieView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = lottieView.swift; sourceTree = "<group>"; };
+		DAB198682A22999B00FBDF05 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		DAB1986B2A2299C000FBDF05 /* Confetti.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Confetti.json; sourceTree = "<group>"; };
+		DAB1986D2A229A2300FBDF05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAB198592A22990000FBDF05 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,9 +108,15 @@
 		DAB1982C2A2298BA00FBDF05 /* bright-whites */ = {
 			isa = PBXGroup;
 			children = (
+				DAB1986D2A229A2300FBDF05 /* Assets.xcassets */,
+				DAB1986A2A2299C000FBDF05 /* Lottie Files */,
+				DAB198682A22999B00FBDF05 /* Launch Screen.storyboard */,
+				DAB1985F2A22998900FBDF05 /* ContentView.swift */,
+				DAB1985E2A22998900FBDF05 /* count.swift */,
+				DAB198602A22998900FBDF05 /* howTo.swift */,
+				DAB198612A22998900FBDF05 /* lottieView.swift */,
+				DAB1985D2A22998800FBDF05 /* warning.swift */,
 				DAB1982D2A2298BA00FBDF05 /* bright_whitesApp.swift */,
-				DAB1982F2A2298BA00FBDF05 /* ContentView.swift */,
-				DAB198312A2298BB00FBDF05 /* Assets.xcassets */,
 				DAB198332A2298BB00FBDF05 /* Preview Content */,
 			);
 			path = "bright-whites";
@@ -127,6 +147,14 @@
 			path = "bright-whitesUITests";
 			sourceTree = "<group>";
 		};
+		DAB1986A2A2299C000FBDF05 /* Lottie Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAB1986B2A2299C000FBDF05 /* Confetti.json */,
+			);
+			path = "Lottie Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +171,9 @@
 			dependencies = (
 			);
 			name = "bright-whites";
+			packageProductDependencies = (
+				DAB198582A22990000FBDF05 /* Lottie */,
+			);
 			productName = "bright-whites";
 			productReference = DAB1982A2A2298BA00FBDF05 /* bright-whites.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +246,9 @@
 				Base,
 			);
 			mainGroup = DAB198212A2298BA00FBDF05;
+			packageReferences = (
+				DAB198572A22990000FBDF05 /* XCRemoteSwiftPackageReference "lottie-spm" */,
+			);
 			productRefGroup = DAB1982B2A2298BA00FBDF05 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,8 +265,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAB198692A22999B00FBDF05 /* Launch Screen.storyboard in Resources */,
+				DAB1986C2A2299C000FBDF05 /* Confetti.json in Resources */,
+				DAB1986E2A229A2300FBDF05 /* Assets.xcassets in Resources */,
 				DAB198352A2298BB00FBDF05 /* Preview Assets.xcassets in Resources */,
-				DAB198322A2298BB00FBDF05 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +293,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAB198302A2298BA00FBDF05 /* ContentView.swift in Sources */,
+				DAB198662A22998900FBDF05 /* howTo.swift in Sources */,
+				DAB198642A22998900FBDF05 /* count.swift in Sources */,
+				DAB198652A22998900FBDF05 /* ContentView.swift in Sources */,
+				DAB198632A22998900FBDF05 /* warning.swift in Sources */,
 				DAB1982E2A2298BA00FBDF05 /* bright_whitesApp.swift in Sources */,
+				DAB198672A22998900FBDF05 /* lottieView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,17 +454,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"bright-whites/Preview Content\"";
 				DEVELOPMENT_TEAM = 9UT6F4B4LM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Bright Whites";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -432,9 +476,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jaimetavares.bright-whites";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -443,17 +490,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"bright-whites/Preview Content\"";
 				DEVELOPMENT_TEAM = 9UT6F4B4LM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Bright Whites";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -461,9 +512,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jaimetavares.bright-whites";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -583,6 +637,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DAB198572A22990000FBDF05 /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DAB198582A22990000FBDF05 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DAB198572A22990000FBDF05 /* XCRemoteSwiftPackageReference "lottie-spm" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DAB198222A2298BA00FBDF05 /* Project object */;
 }
